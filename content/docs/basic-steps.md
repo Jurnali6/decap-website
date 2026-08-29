@@ -1,12 +1,20 @@
 ---
 title: Basic Steps
-group: Add
-weight: 1
+group: Accounts
+weight: 6
+slug: Keong
 aliases:
   - /docs/add-to-your-site/
   - /docs/quick-start/
+  - User
+  - "Post "
+  - Navigation
+  - Blog
+  - Page
+  - Setting
+  - Sidebar
+  - Footer
 ---
-
 This tutorial guides you through the steps for adding Decap CMS to a site that's built with a common [static site generator](https://www.staticgen.com/), like Jekyll, Hugo, Hexo, or Gatsby.
 Alternatively, you can [start from a template](/docs/start-with-a-template) or dive right into [configuration options](/docs/configuration-options). The process for adding Decap CMS to a static site can be divided into four main steps:
 
@@ -33,4 +41,4 @@ Check out the [Configuration Options](/docs/configuration-options/) page for ful
 
 Decap CMS manages your content and provides editorial and admin features via a webpage in a browser, but it doesn't deliver content. Decap CMS only makes your content available through an API. It is up to developers to determine how to build the raw content into something useful and delightful on the frontend within your static site generator.
 
-{{< pagination-nav nextUrl="/docs/install-decap-cms/" nextLabel="1. Install Decap CMS" >}}
+{{< pagination-nav prevUrl="Admin" nextUrl="/docs/install-decap-cms/" nextLabel="1. Install Decap CMS" >}}
